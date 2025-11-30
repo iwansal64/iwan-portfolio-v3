@@ -1,0 +1,17 @@
+@import 'tailwindcss';
+
+:root {
+      --background-1: #111;
+      --background-2: #31035c;
+      --text-color-1: #fff;
+      --accent-color-1: var(--background-2);
+      --accent-color-2: var(--background-1);
+}
+
+body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Saira', sans-serif;
+      background: var(--background-1);
+      color: var(--text-color-1);
+}
