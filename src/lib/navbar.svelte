@@ -1,4 +1,4 @@
-<nav class="w-screen flex flex-row gap-4 p-8">
+<nav class="absolute w-screen flex flex-row gap-4 p-8">
       <div>
             <h1 class="text-4xl font-semibold uppercase">Ridwan</h1>
       </div>

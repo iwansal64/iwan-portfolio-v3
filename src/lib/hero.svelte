@@ -1,5 +1,5 @@
-<div id="hero" class="w-screen min-h-screen h-full">
-      <div class="flex flex-row gap-4 mt-48 w-[80%] mx-auto *:w-full">
+<div id="hero" class="flex items-center w-screen min-h-screen h-full">
+      <div class="flex flex-row gap-4 items-center h-full w-[80%] mx-auto *:w-full">
             <div class="flex flex-col py-24">
                   <h1 class="text-6xl font-bold uppercase">Ridwan</h1>
                   <div class="flex flex-row gap-2 items-center">
