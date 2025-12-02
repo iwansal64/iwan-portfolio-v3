@@ -1,4 +1,4 @@
-<div id="tech-stack" class="w-screen h-full min-h-screen bg-(--background-2) py-20 px-20">
+<div id="tech-stack" class="w-screen h-full min-h-screen bg-(--background-2) pt-24 py-48 px-20">
       <h1 class="text-5xl font-thin w-full text-center">Meet my <span class="font-semibold">Tech Stack</span></h1>
       <div class="w-full h-full flex flex-row gap-4 mt-24">
             <div class="px-24 box-border w-1/2 flex flex-col justify-center">
@@ -10,7 +10,7 @@
                   </div>
                   <p class="text-md font-thin mt-4">I always want to achieve the fastest, most reliable system within my backend-side application</p>
             </div>
-            <div class="w-1/2">
+            <div class="w-1/2 flex justify-end items-center">
                   <div class="grid grid-cols-2 grid-rows-2 place-items-center w-fit aspect-square *:w-fit *:h-fit *:px-12 *:flex *:justify-center *:items-center *:relative">
                         <div class="relative translate-x-12">
                               <p class="font-thin absolute bottom-0 translate-y-full left-1/2 -translate-x-1/2">Node JS</p>
@@ -39,7 +39,7 @@
                   </div>
             </div>
       </div>
-      <div class="w-full h-full flex flex-row-reverse gap-4 mt-24">
+      <div class="w-full h-full flex flex-row-reverse gap-4 mt-60">
             <div class="px-24 box-border w-1/2 flex flex-col justify-center">
                   <h3 class="text-5xl font-semibold">Frontend</h3>
                   <div class="flex flex-row gap-2 mt-2 text-sm *:font-semibold *:border *:border-white *:px-2 *:py-1 *:rounded-lg">
@@ -49,7 +49,7 @@
                   </div>
                   <p class="text-md font-thin mt-4">I have a tendency to create a performant, delightful looking user interface regardless the target audience</p>
             </div>
-            <div class="w-1/2">
+            <div class="w-1/2 flex justify-start items-center">
                   <div class="grid grid-cols-2 grid-rows-2 place-items-center w-fit aspect-square *:w-fit *:h-fit *:px-12 *:flex *:justify-center *:items-center *:relative">
                         <div class="relative translate-x-12">
                               <p class="font-thin absolute bottom-0 translate-y-full left-1/2 -translate-x-1/2">Svelte</p>

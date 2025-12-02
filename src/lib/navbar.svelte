@@ -1,4 +1,4 @@
-<nav class="absolute w-screen flex flex-row gap-4 p-8">
+<nav class="fixed w-screen flex flex-row gap-4 p-8 z-100">
       <div>
             <h1 class="text-4xl font-semibold uppercase">Ridwan</h1>
       </div>
@@ -11,6 +11,6 @@
             </ul>
       </div>
       <div class="w-fit">
-            <button class="bg-(--accent-color-1) text-white px-8 py-2 w-max rounded-xl font-semibold">Collab ?</button>
+            <button class="bg-white/10 border border-white text-white px-8 py-2 w-max rounded-xl font-semibold">Collab ?</button>
       </div>
 </nav>
