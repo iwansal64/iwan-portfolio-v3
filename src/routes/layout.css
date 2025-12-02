@@ -2,7 +2,7 @@
 
 :root {
       --background-1: #111;
-      --background-2: #31035c;
+      --background-2: #1e2939;
       --text-color-1: #fff;
       --accent-color-1: var(--background-2);
       --accent-color-2: var(--background-1);
@@ -28,5 +28,43 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-      background: var(--accent-color-1);
+      background: #25344b;
+}
+
+button {
+      cursor: pointer;
+}
+
+.floating-anim {
+      animation-name: floating-anim;
+      animation-duration: 2s;
+      animation-direction: alternate;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+}
+
+.floating-anim-low {
+      animation-name: floating-anim-low;
+      animation-duration: 3s;
+      animation-direction: alternate;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+}
+
+@keyframes floating-anim {
+      from {
+            transform: translateY(-5%);
+      }
+      to {
+            transform: translateY(15%);
+      }
+}
+
+@keyframes floating-anim-low {
+      from {
+            transform: translateY(-10%);
+      }
+      to {
+            transform: translateY(0%);
+      }
 }
